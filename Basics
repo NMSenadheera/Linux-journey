@@ -1,0 +1,4 @@
+echo "Hello"=This prints the hello word
+whoami=This returns the username
+id=This returns the user information, which includes the grup information also
+id -u=This gives the username
