@@ -1,0 +1,9 @@
+~=Represent the home directory(Goes to the home directory)
+pwd(print working directory)=This prints the current working directory)
+echo ~=Prints the home directory
+ls=List the files and directories in the working directory
+ls ~=list files and directories in the home directory
+/=represent the root directory
+cd ..=move up one level to the parent directory
+cd ~=moves to the home directory
+I'm gonna stop from here just to make sure that I can later come and update this file if I switched back to this branch.Lets see....
