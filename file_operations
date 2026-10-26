@@ -7,3 +7,18 @@ ls ~=list files and directories in the home directory
 cd ..=move up one level to the parent directory
 cd ~=moves to the home directory
 I'm gonna stop from here just to make sure that I can later come and update this file if I switched back to this branch.Lets see....
+/home/Naduni/linux-journey = This is an absolute path.This gives the full loaction and used for checking whether we are on the right file
+touch file.txt = creates a file named "file.txt"
+echo "Hello" > file.txt = Prints "Hello" to the file.txt.If the file doesn't exist it creates the file.
+touch .hiddenfile = makes a hidden file.(hidden files are usually start with ".")
+mkdir testdir = makes a directory
+ls -l = used to see additional information of the files and directories in the working directory
+lls -a = shows hidden files
+Actually the above code is worng the right one is down below.
+ls -a = shows hodden files
+ls -la = shows hidden files and other files with details
+ls -l testdir = list content of the specific directory
+
+cp file1.txt file2.txt = copy the content of file1.txt to file2.txt
+cp file.txt testdir/ = copy file.txt to "testdir" directory
+cp -r testdir testdir_copy = copy directories
